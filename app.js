@@ -1,7 +1,6 @@
 document.addEventListener('DOMContentLoaded', () => {
     const grid = document.querySelector('.grid');
     const player = document.createElement('div');
-    //var button = document.createElement("button");
     
     let startPoint = 150;
     let playerLeftSpace = 50;
@@ -199,9 +198,6 @@ document.addEventListener('DOMContentLoaded', () => {
 
     function start(){
 
-        //grid.removeChild(button);
-        //y.removeChild("button");
-        //console.log()
         if (!isGameOver){
             document.getElementById("button").style.visibility = 'hidden';
             document.getElementById("otterjump").style.visibility = 'hidden';
@@ -210,19 +206,12 @@ document.addEventListener('DOMContentLoaded', () => {
             //console.log(player);
             drawScore();
             setInterval(moveClouds, 30);
-            //score2.innerHTML = score;   
-
-
-           // 
             jump(startPoint);
 
             
             document.addEventListener('keyup', control);
             
-            //score2.innerHTML = "Score: " + score;
-            //s.innerHTML = score;
             console.log(score)
-            //showScore();
         
                 
         }else{
@@ -231,36 +220,19 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     function createButton(){
-        //grid.appendChild(button)
+
         var o = document.getElementById("otterjump");
         var x = document.getElementById("button");
         x.addEventListener("click", start);
-        //x.onclick = start;
         isGameOver = false;
-        //button.innerHTML = "Play";
-        //button.id = "button";
-        
-        
-        
-        
     }
 
     function drawScore(){
-        //score2.style.visibility = 'visible';
+
         score2.innerHTML = "Score: ";
         score2.innerHTML+= score;
     }
 
-    
-    // function idk(){
-    //     if(isGameOver){
-    //         createButton();
-    //         document.getElementById("button").style.visibility = 'visible';
-            
-    //     }
-        
-    // }
-    // idk();
     createButton();
     
         
