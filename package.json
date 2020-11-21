@@ -1,0 +1,24 @@
+{
+  "name": "Otter Jump",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "homepage": "https://makennamartin97.github.io/otter-jump",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "deploy": "gh-pages -d docs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/makennamartin97/otter-jump.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/makennamartin97/otter-jump/issues"
+  }
+
+}
