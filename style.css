@@ -1,0 +1,61 @@
+.grid {
+    width: 400px;
+    height: 600px;
+    background-color: #E699F0;
+    position: relative;
+    font-size: 80px;
+    color:#bccaff;
+    text-align: center;
+    font-family: 'Modak', cursive;
+    background-image: url("bg.png");
+    
+}
+
+#score {
+    font-size: 30px;
+    text-align: center;
+}
+
+.player {
+    width: 75px;
+    height: 60px;
+    
+    position: absolute;
+    background-image: url('otter.png');
+    background-repeat: no-repeat;
+    background-size: 75px 60px;
+    background-color:#E699F0;
+   
+}
+
+.cloud {
+    width: 85px;
+    height: 35px;
+    background-color: #bccaff;
+    position: absolute;
+    background-image: url("cloud4.png");
+    background-size: 80px 35px;
+}
+
+#button {
+    background-color: #bccaff;
+    color: white;
+    height: 50px;
+    width: 100px;
+    border-radius: 10%;
+    text-align: center;
+    display: relative;
+    font-size: large;
+}
+
+h4 {
+    color: black;
+    font-size: 15px;
+}
+
+#otterjump {
+    font-size: 80px;
+    font-weight: 100;
+}
+
+
